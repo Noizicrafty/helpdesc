@@ -1,2 +1,3 @@
-# helpdesc
-helpdesc service for MGTU GA
+# Почтовый помощник
+
+Структура проекта создана.
