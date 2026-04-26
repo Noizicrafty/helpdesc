@@ -1,0 +1,11 @@
+version: '3.9'
+services:
+  jem:
+    build: .
+    container_name: jem
+    volumes:
+      - ./runtime:/app/runtime
+      - ./exports:/app/exports
+    stdin_open: true
+    tty: true
+    command: ["python", "main.py", "--mode", "cli"]
